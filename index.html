@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title>Flex Box</title>
+</head>
+<body class="home">
+
+<div class="fb-container">
+
+    <!-- Page Title -->
+    <h1>Flex Box Demo</h1>
+    
+    <!-- Example 1 - flex-wrap -->
+    <h2>Example 1 - flex-wrap</h2>
+    <div class="fb-description">
+        Shrink the browser window to see how flex-wrap shifts boxes to a new column when there is not enough room.
+    </div>
+    <div class="flex-section fs1">
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 1
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 2
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 3
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 4
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 5
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 6
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 7
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 8
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Example 2 - Order -->
+    <h2>Example 2 - Order</h2>
+    <div class="fb-description">
+        This is a very common layout for image links. Shrink the browser window to see how the order of the items change. This isn't a practical example for order, but it's easy to see how it works here.
+    </div>
+    <div class="flex-section fs2">
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 1
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 2
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 3
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Example 3 - Flex-direction (Column) -->
+    <h2> Example 3 - Flex-direction (Column)</h2>
+    <div class="fb-description">
+        This example shows how to switch the display of items from a row to a column.
+    </div>
+    <div class="flex-section fs3">
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 1
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 2<br>
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 3
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Example 4 - Align-items, Order -->
+    <h2>Example 4 - Align-items (Center), Order</h2>
+    <div class="fb-description" style="margin-bottom: 75px;">
+        The "align-items" property is useful for vertically centering your content. This is also a more practical example of the "order" property. Try shrinking the browser and notice how the text always displays before the image.
+    </div>
+    <div class="flex-section fs4">
+        <div class="fs-box fs-info">
+            <h3>Ipsum Lorem</h3>
+            <p>Ipsum lorem dolor sit amet, consectetur adipiscing elit. Suspendisse viverra nunc et libero porttitor dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra nunc et libero.</p>
+        </div>
+        <div class="fs-box fs-image">
+            <img src="demo.jpg" alt="Demo">
+        </div>
+    </div>
+    <div class="flex-section fs4">
+        <div class="fs-box fs-image">
+            <img src="demo.jpg" alt="Demo">
+        </div>
+        <div class="fs-box fs-info">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra nunc et libero porttitor dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse viverra nunc et libero porttitor dictum.</p>
+        </div>
+    </div>
+    
+    <!-- Example 5 - Justify-Content -->
+    <h2>Example 5 - Justify-Content</h2>
+    <div class="fb-description">
+        The "justify-content" property is super usefuls for making horizontal items display with an even gap between them.
+    </div>
+    <div class="flex-section fs5">
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 1
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 2
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 3
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 4
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Example 6 - Flex-grow, Align-Items -->
+    <h2>Example 6 - Flex-grow, Align-Items</h2>
+    <div class="fb-description">
+        With the "flex-grow" property, the outer two boxes are basically labeled the standard size and the 2nd box is made to be twice as large as the standard box size. Please note that "flex-grow" only pertains to width. The reason that the height of the middle item is larger is beause of the 16:9 aspect ratio css rule that is set in Flex Section Global.
+    </div>
+    <div class="flex-section fs6">
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 1
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 2
+                </div>
+            </div>
+        </div>
+        <div class="fs-box-outer">
+            <div class="fs-box-inner">
+                <div class="fs-content">
+                    Box 3
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    
+</body>
+
+</html>
